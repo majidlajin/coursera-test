@@ -1,0 +1,180 @@
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+h1 {
+  text-align: center;
+  font-size:275%;
+  margin-bottom: 15px;
+}
+
+.paragraph{
+  position: relative;
+  width: 80%;
+  height: 80%;
+  margin:10%;
+  color: black;
+  font-size:125%;
+}
+
+.paragraph_titles{
+  position: absolute;
+  top:0;
+  right:0;
+  border: 1px solid black;
+  width: 150px;
+  margin: 0;
+  font-family: Helvetica;
+  color: white;
+  text-align: center;
+}
+
+.first_paragraph_title {
+  background-color: #FA7B89;
+}
+.second_paragraph_title {
+  background-color: #D7554C;
+}
+.third_paragraph_title {
+  background-color: #EEBE4A;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  margin:0;
+  padding: 0;
+
+}
+.row>*{
+  box-sizing: border-box !important;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: 1px solid green;
+    margin: 1%;
+    background-color: #BDB9B9;
+    position: relative;
+  }
+  .col-lg-1 {
+    width: 6.33%;
+    
+  }
+  .col-lg-2 {
+    width: 14.66%;
+    
+  }
+  .col-lg-3 {
+    width: 23%;
+    
+  }
+  .col-lg-4 {
+    width: 31.33%;
+    
+  }
+  .col-lg-5 {
+    width: 39.66%;
+    
+  }
+  .col-lg-6 {
+    width: 48%;
+    
+  }
+  .col-lg-7 {
+    width: 56.33%;
+    
+  }
+  .col-lg-8 {
+    width: 64.66%;
+    
+  }
+  .col-lg-9 {
+    width: 72.99%;
+    
+  }
+  .col-lg-10 {
+    width: 81.33%;
+    
+  }
+  .col-lg-11 {
+    width: 89.66%;
+    
+  }
+  .col-lg-12 {
+    width: 98%;
+    
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px ) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 1px solid green;
+    margin: 1%;
+    background-color: #BDB9B9;
+    position: relative;
+  }
+  .col-md-1 {
+    width: 6.33%;
+    
+  }
+  .col-md-2 {
+    width: 14.66%;
+    
+  }
+  .col-md-3 {
+    width: 23%;
+    
+  }
+  .col-md-4 {
+    width: 31.33%;
+    
+  }
+  .col-md-5 {
+    width: 39.66%;
+    
+  }
+  .col-md-6 {
+    width: 48%;
+    
+  }
+  .col-md-7 {
+    width: 56.33%;
+    
+  }
+  .col-md-8 {
+    width: 64.66%;
+  }
+  .col-md-9 {
+    width: 72.99%;
+  }
+  .col-md-10 {
+    width: 81.33%;
+  }
+  .col-md-11 {
+    width: 89.66%;
+  }
+  .col-md-12 {
+    width: 98%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .smallscreen{
+    border: 1px solid green;
+    margin: 3%;
+    background-color: #BDB9B9;
+    position: relative;
+  }
+}
+
+</style>
